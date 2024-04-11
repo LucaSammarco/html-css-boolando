@@ -87,7 +87,26 @@ main {
 }
 
 .product:hover img:nth-of-type(2) {
-    display: block;
+    display: inline;
+}
+
+.product-info p:first-child {
+    font-size: 0.8rem;
+}
+
+.product-info h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+
+.product .product-info p > .red-text {
+    color: red;
+    font-weight: bold;
+}
+
+.product .product-info p > .barred {
+    text-decoration: line-through;
 }
 
 .wrap {
