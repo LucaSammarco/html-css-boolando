@@ -49,23 +49,31 @@ header .logo-bar ul a{
 }
 
 main {
-    padding: 6rem 6rem 6rem;
+    padding: 6rem 7rem 6rem;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+}
+
+
+.product {
+    
+   
+    width: calc((100% / 3) + 1rem);
     
 }
 
-
-.product-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 10%;
+article.product img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
 }
 
-.product-box img {
-    width: 80%;
-    height: 80%;
-    object-fit: contain;
-}
+
+
 
 .wrap {
     display: flex;  
@@ -82,13 +90,13 @@ footer {
     height: 50px;
 }
 
-/* footer .logo-bar ul li{
+/* /* footer .logo-bar ul li{
     list-style: none;    
     text-decoration: none;
     display: flex;
     font-size: 0.8rem;
     color: ; */
-}
+ */
 
 /* footer .logo-bar ul a{
     list-style: none;
@@ -99,7 +107,3 @@ footer {
     padding-right: 0.2rem;
 } */
 
-/* .logo-bar img {
-    width: 15%;
-    /* height: 10%; */
-} */
