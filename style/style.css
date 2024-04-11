@@ -8,8 +8,9 @@
 header {
     /* display: flex; */
     padding: 1rem;
-    background-color: orange;
-    color: yellow;
+    background-color:#ff6900;
+    position: fixed;
+    height: rem;
 }
 
 .logo-bar {
@@ -35,7 +36,7 @@ header .logo-bar ul a{
     text-decoration: none;
     color: white;
     font-family: sans-serif;
-    margin-right: 0.5rem;
+    padding-right: 0.2rem;
 }
 
 .logo-bar img {
