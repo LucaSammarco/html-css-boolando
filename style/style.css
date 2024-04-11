@@ -10,7 +10,7 @@ header {
     padding: 1rem;
     background-color:#ff6900;
     position: fixed;
-    height: rem;
+    
 }
 
 .logo-bar {
@@ -44,3 +44,62 @@ header .logo-bar ul a{
     /* height: 10%; */
 }
 
+.flex {
+    display: flex;
+}
+
+main {
+    padding: 6rem 6rem 6rem;
+    
+}
+
+
+.product-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 10%;
+}
+
+.product-box img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.wrap {
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+/* article img {
+    object-fit: co;
+} */
+
+
+footer {
+    background-color: black;
+    height: 50px;
+}
+
+/* footer .logo-bar ul li{
+    list-style: none;    
+    text-decoration: none;
+    display: flex;
+    font-size: 0.8rem;
+    color: ; */
+}
+
+/* footer .logo-bar ul a{
+    list-style: none;
+    margin-right:s;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding-right: 0.2rem;
+} */
+
+/* .logo-bar img {
+    width: 15%;
+    /* height: 10%; */
+} */
